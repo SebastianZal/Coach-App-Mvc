@@ -1,0 +1,276 @@
+/* Background pattern from subtlepatterns.com */
+html {
+	min-height: 100vh;
+	position: relative;
+}
+
+body {
+	background: url(../img/dark_mosaic.png) fixed;
+	color: #CCCCCC;
+	font-family: 'Inika', serif;
+	padding-top: 70px;
+	margin-bottom: 170px;
+	height: 100%;
+}
+
+
+#animacja {
+	position: absolute;
+	bottom: 120px;
+	left: 50%;
+	z-index: 20;
+	width: 60%;
+	padding-left: 0;
+	margin-left: -30%;
+	text-align: center;
+}
+
+header {
+	font-family: 'Nosifer', cursive;
+	color: #8a0707;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nav {
+	overflow: hidden;
+}
+
+iframe {
+	border: 1px solid #555555;
+}
+
+#myCarousel {
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -15px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+#logout, #login {
+	display: none;
+	float: left;
+}
+
+
+body > .container {
+	background: url(../img/subtle2.png);
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}
+
+.nav > li.dropdown.open {
+  position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+}
+
+.side {
+	padding: 10px;
+}
+
+.inside {
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+	padding: 10px;
+	text-align: justify;
+	overflow: hidden;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	background: url(../img/dark_mosaic.png);
+}
+
+.inside > p {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.inside > ol {
+	line-height: 25px;
+	text-align: center; 
+	list-style-position:inside;
+	padding-left:0;
+}
+
+.content {
+	padding: 10px;
+}
+
+.incontent {
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+	padding: 10px;
+	overflow: hidden;
+	text-align: justify;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	background: url(../img/dark_mosaic.png);
+}
+
+.karuzela img {
+  width: 100%;
+
+  height: 600px;
+  max-height: 600px;
+}
+
+footer, .dropdown-menu {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: initial;
+	color: white;
+}
+
+.dropdown-menu > li > a {
+	color: #CCCCCC;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.carousel-indicators .active {
+  width: 25px;
+  height: 25px;
+  margin: 3px;
+  background-color: #fff;
+}
+
+
+/*rejestracja*/
+
+#regcontainer {
+	margin-top: 70px;
+}
+
+fieldset > legend {
+	display: none;
+}
+
+#pierwszy {
+	margin-top: 30px;
+}
+
+fieldset {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#submitbutton {
+	width: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+/*footer*/
+
+footer {
+position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+
+footer > .container {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.center-block {
+	float:none;
+}
+
+a, a:visited {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+     color:#C40909 !important; 
+     cursor:pointer;  
+     text-decoration: none;
+}
+
+/*button*/
+
+.btn-red {
+  color: #fff;
+  background-color: #8a0707;
+  border-color: #5E0404;
+}
+.btn-red:focus,
+.btn-red.focus {
+  color: #fff;
+  background-color: #C40909;
+  border-color: #761c19;
+}
+.btn-red:hover {
+  color: #fff;
+  background-color: #C40909;
+  border-color: #ac2925;
+}
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  color: #fff;
+  background-color: #C40909;
+  border-color: #ac2925;
+}
+
+
+.abc {
+	background-color: #080808;
+}
